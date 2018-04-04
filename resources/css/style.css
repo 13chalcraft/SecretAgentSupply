@@ -103,11 +103,15 @@ nav a {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  height: 13rem;
+  width: 100%;
 }
 
-.product-container img {
-  max-height: 9rem;
-  margin: 2rem 0;
+.product-image img {
+  width: 50%;
+  height: auto;
+  padding: 2rem;
 }
 
 .product-container p {
@@ -141,4 +145,6 @@ nav a {
 footer {
   background-color: black;
   height: 5rem;
+  display: flex;
+  align-items: center;
 }
